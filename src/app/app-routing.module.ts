@@ -4,7 +4,7 @@ import { LoginComponent } from './autenticacao/login/login.component';
 import { CadastroComponent } from './autenticacao/cadastro/cadastro.component';
 import { PerfilComponent } from './autenticacao/perfil/perfil.component';
 import { authGuard } from './autenticacao/auth.guard';
-import { BuscaComponent } from './pages/busca/busca.component';
+import { BuscaComponent } from './busca/busca.component';
 import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [

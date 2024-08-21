@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
-import { CompanhiaService } from 'src/app/core/services/companhia.service';
+
 import { FormBuscaService } from 'src/app/core/services/form-busca.service';
 import { Companhia } from 'src/app/core/types/type';
+import { CompanhiaService } from '../../services/companhia.service';
 
 @Component({
   selector: 'app-companhias',

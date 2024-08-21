@@ -1,6 +1,6 @@
 import { Component, EventEmitter, Output } from '@angular/core';
 import { FormBuscaService } from 'src/app/core/services/form-busca.service';
-import { PassagensService } from 'src/app/core/services/passagens.service';
+import { PassagensService } from '../services/passagens.service';
 
 @Component({
   selector: 'app-filtros-complementares',
