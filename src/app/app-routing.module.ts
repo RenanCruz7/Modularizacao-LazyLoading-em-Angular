@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { BuscaComponent } from './busca/busca.component';
 
 const routes: Routes = [
   {
@@ -15,6 +14,11 @@ const routes: Routes = [
   {
     path: 'busca',
     loadChildren: () => import('./busca/busca.module').then(m => m.BuscaModule)
+  },
+  {
+    path: '**',
+    redirectTo: '/pagina-nao-encontrada',
+    pathMatch: 'full'
   }
 ];
 
