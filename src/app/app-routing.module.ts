@@ -14,7 +14,7 @@ const routes: Routes = [
   },
   {
     path: 'busca',
-    component: BuscaComponent
+    loadChildren: () => import('./busca/busca.module').then(m => m.BuscaModule)
   }
 ];
 
