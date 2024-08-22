@@ -27,7 +27,6 @@ import { BuscaModule } from './busca/busca.module';
     SharedModule,
     MaterialModule,
     HomeModule,
-    AutenticacaoModule,
     BuscaModule
   ],
   providers: [{
